@@ -5,7 +5,7 @@
     <tipus>Peix</tipus>
     <habitat>Oceànic</habitat>
     <grandaria>
-      <longitud unitat="metres">6.4</longitud>
+      <longitud unitat="metres">6,4</longitud>
       <pes unitat="quilograms">1.900</pes>
     </grandaria>
     <estat_conservacio>En perill</estat_conservacio>
