@@ -1,0 +1,76 @@
+{
+  "factura": {
+    "@numero": "0001",
+    "empresa": {
+      "nombre": "Empresa Ficticia",
+      "direccion": "Carrer Desconegut, 1",
+      "poblacion": "Palma",
+      "codigo_postal": "07001",
+      "cif": "02826000",
+      "telefono": "971 12 34 56",
+      "fax": "971 98 76 54"},
+    "cliente": {
+      "@numero_cliente": "001",
+      "nombre": "Carles Canals Gozálvez",
+      "direccion_envio": "Carrer Major, 1. Inca 07300 (Illes Balears)"},
+    "datos_factura": {
+      "fecha": "2022-10-21",
+      "numero_pedido": "1",
+      "forma_pago": "EFECTIU"},
+    "productos_factura": {
+      "producto": [{
+          "referencia": "MII001F",
+          "descripcion": "MICRO PENTIUM IV 3000MHZ",
+          "cantidad": "1",
+          "precio_unitario": {
+            "@moneda": "EUR",
+            "#text": "250.00"},
+          "iva_porcentaje": "16.0",
+          "importe": {
+            "@moneda": "EUR",
+            "#text": "266.80"}
+        },{
+          "referencia": "MB003",
+          "descripcion": "PLACA BASE ODI P4",
+          "cantidad": "1",
+          "precio_unitario": {
+            "@moneda": "EUR",
+            "#text": "180.00"},
+          "iva_porcentaje": "16.0",
+          "importe": {
+            "@moneda": "EUR",
+            "#text": "208.80"}
+        },{
+          "referencia": "MED876",
+          "descripcion": "DIMM DDR 512MB 3200",
+          "cantidad": "2",
+          "precio_unitario": {
+            "@moneda": "EUR",
+            "#text": "40.00"},
+          "iva_porcentaje": "16.0",
+          "importe": {
+            "@moneda": "EUR",
+            "#text": "92.80"}
+        },{
+          "referencia": "HD250G",
+          "descripcion": "DISC DUR 250GB SATA 7200",
+          "cantidad": "4",
+          "precio_unitario": {
+            "@moneda": "EUR",
+            "#text": "120.00"},
+          "iva_porcentaje": "16.0",
+          "importe": {
+            "@moneda": "EUR",
+            "#text": "556.80"}}]},
+    "total": {
+      "base_imponible": {
+        "@moneda": "EUR",
+        "#text": "990.00"},
+      "iva_porcentaje": "16.0",
+      "total_iva": {
+        "@moneda": "EUR",
+        "#text": "155.20"},
+      "total_factura": {
+        "@moneda": "EUR",
+        "#text": "1145.20"}
+}}}

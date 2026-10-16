@@ -1,0 +1,61 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<factura numero="0001">
+    <empresa>
+        <nombre>Empresa Ficticia</nombre>
+        <direccion>Carrer Desconegut, 1</direccion>
+        <poblacion>Palma</poblacion>
+        <codigo_postal>07001</codigo_postal>
+        <cif>02826000</cif>
+        <telefono>971 12 34 56</telefono>
+        <fax>971 98 76 54</fax>
+    </empresa>
+    <cliente numero_cliente="001">
+        <nombre>Carles Canals Gozálvez</nombre>
+        <direccion_envio>Carrer Major, 1. Inca 07300 (Illes Balears)</direccion_envio>
+    </cliente>
+    <datos_factura>
+        <fecha>2022-10-21</fecha>
+        <numero_pedido>1</numero_pedido>
+        <forma_pago>EFECTIU</forma_pago>
+    </datos_factura>
+    <productos_factura>
+        <producto>
+            <referencia>MII001F</referencia>
+            <descripcion>MICRO PENTIUM IV 3000MHZ</descripcion>
+            <cantidad>1</cantidad>
+            <precio_unitario moneda="EUR">250.00</precio_unitario>
+            <iva_porcentaje>16.0</iva_porcentaje>
+            <importe moneda="EUR">266.80</importe>
+        </producto>
+        <producto>
+            <referencia>MB003</referencia>
+            <descripcion>PLACA BASE ODI P4</descripcion>
+            <cantidad>1</cantidad>
+            <precio_unitario moneda="EUR">180.00</precio_unitario>
+            <iva_porcentaje>16.0</iva_porcentaje>
+            <importe moneda="EUR">208.80</importe>
+        </producto>
+        <producto>
+            <referencia>MED876</referencia>
+            <descripcion>DIMM DDR 512MB 3200</descripcion>
+            <cantidad>2</cantidad>
+            <precio_unitario moneda="EUR">40.00</precio_unitario>
+            <iva_porcentaje>16.0</iva_porcentaje>
+            <importe moneda="EUR">92.80</importe>
+        </producto>
+        <producto>
+            <referencia>HD250G</referencia>
+            <descripcion>DISC DUR 250GB SATA 7200</descripcion>
+            <cantidad>4</cantidad>
+            <precio_unitario moneda="EUR">120.00</precio_unitario>
+            <iva_porcentaje>16.0</iva_porcentaje>
+            <importe moneda="EUR">556.80</importe>
+        </producto>
+    </productos_factura>
+    <total>
+        <base_imponible moneda="EUR">990.00</base_imponible>
+        <iva_porcentaje>16.0</iva_porcentaje>
+        <total_iva moneda="EUR">155.20</total_iva>
+        <total_factura moneda="EUR">1145.20</total_factura>
+    </total>
+</factura>
